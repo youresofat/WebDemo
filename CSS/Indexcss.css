@@ -1,5 +1,6 @@
 /* 盒子样式设置 */
-.box{
+#box{
+    width:1200px;
     margin:0px auto; 
 }
 
