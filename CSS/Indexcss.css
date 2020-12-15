@@ -1,0 +1,420 @@
+/* 盒子样式设置 */
+.box{
+    margin:0px auto; 
+}
+
+/* 导航样式 */
+/* logo样式 */
+.logo{
+    float:left;
+    margin-top:20px;
+    margin-left:60px;
+}
+
+.logo img{
+    width:250px;
+    height:50px;
+}
+/* 列表样式 */
+.list{
+    float:left;
+    margin:20px;
+    margin-left:70px;
+    margin-right:50px;
+}
+
+.list li{
+    float:left;
+    padding:10px 20px;
+    font-size:18px;
+}
+
+.search input{
+    width:220px;
+    height:30px;
+    margin-top:27px;
+    margin-left:10px;
+    float:left;
+}
+
+.search button{
+    float:left;
+    width:34px;
+    height:34px;
+    margin-top:27px;
+    vertical-align:bottom;
+    background:url(../image/button.png) no-repeat center;
+    background-color:rgb(90, 197, 90);
+    border:0px;
+}
+
+.person{
+    float:left;
+    margin-top:34px;
+    margin-left:70px;
+}
+
+/* banner样式 */
+/* 列表样式设置 */
+.type{
+    float:left;
+    width:240px;
+    height:370px;
+    margin-left:60px;
+    margin-top:3px;
+}
+
+.type ul li{
+    padding-left:10px;
+    padding-top:15px;
+}
+
+.type ul li span{
+    float:right;
+    font-size:10px;
+    padding-top:4px;
+    padding-right:10px;
+    color:azure;
+}
+
+/* 轮播图样式 */
+.banner{
+    width:780px;
+    height:360px;
+    position:relative;
+    margin-top:10px;
+    margin-left:380px;
+    overflow:hidden;
+}
+
+#slider{
+    position:absolute;
+    width:4680px;
+    left:-780px;
+}
+
+.slide{
+    float:left;
+    width:780px;
+}
+
+#hidden{
+    padding-left:20px;
+    padding-top:20px;
+    width:500px;
+    height:400px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:white;
+    display:none;
+    background:rgb(46, 243, 122);
+}
+
+/* 登录样式设置 */
+#login{
+    position:absolute;
+    display:none;
+    top:0px;
+    right:0px;
+    width:410px;
+    height:410px;
+    background:rgb(70, 241, 70);
+}
+
+.userName div{
+    float:left;
+    margin-top:30px;
+    margin-left:30px;
+}
+
+.userName input{
+    float:right;
+    width:200px;
+    height:30px;
+    margin-top:20px;
+    margin-right:50px;
+}
+
+.userName{
+    margin-top:40px;
+}
+
+.password div{
+    float:left;
+    margin-top:20px;
+    margin-left:30px;
+}
+
+.password input{
+    width:200px;
+    height:30px;
+    float:right;
+    margin-top:10px;
+    margin-right:50px;
+}
+
+.submit{
+    margin-top:20px;
+    margin-left:30px;
+}
+
+.submit button{
+    float:left;
+    width:150px;
+    height:50px;
+    margin-right:20px;
+
+}
+
+#prompt1{
+    font-size:14px;
+    color:rgb(126, 123, 123);
+    width:200px;
+    height:30px;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+#prompt2{
+    font-size:14px;
+    color:rgb(126, 122, 122);
+    width:200px;
+    height:30px;
+    margin-left:30px;
+    margin-top:10px;
+}
+
+
+.introduce{
+    font-size:12px; 
+}
+
+.university{
+    margin:10px 0px;
+    font-size:20px;
+    font-weight:800;
+}
+
+.hidden ul li{
+    margin-top:10px;
+    margin-right:30px;
+    float:left;
+}
+
+/* 学校样式设置 */
+.school{
+    margin:20px auto;
+    width:1200px;
+    position:relative;
+}
+
+.intro{
+    float:left;
+    width:150px;
+    margin-top:40px;
+    margin-left:20px;
+}
+
+.schools{
+    float:left;
+    margin-top:20px;
+    margin-left:40px;
+    position:absolute;
+    width:2280px;
+    right:0px;
+}
+
+.schools div{
+    float:left;
+    margin-left:10px;
+}
+
+.schools div img{
+    width:180px;
+    height:50px;
+}
+
+.next{
+    position:absolute;
+    top:18px;
+    right:80px;
+    background:black;
+}
+
+.schoolss{
+    height:70px;
+    width:760px;
+    position:relative;
+    overflow:hidden;
+    float:left;
+    margin-left:40px;
+}
+
+/* 学习课程样式设置 */
+/* 导航样式设置 */
+.studyNav{
+    margin-left:50px;
+    margin-top:20px;
+}
+
+.studyNav div{
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.studyNav ul li{
+    float:left;
+    padding-right:10px;
+}
+
+
+/* 内容样式设置 */
+.study{
+    margin-top:20px;
+    margin-left:50px;
+}
+.study div{
+    float:left;
+    margin-right:55px;
+    position:relative;
+    width:230px;
+}
+
+.content{
+    position:absolute;
+    padding-left:10px;
+    top:0px;
+    left:0px;
+}
+
+.course{
+    padding-top:10px;
+}
+
+.content1{
+    font-size:10px;
+    padding-top:5px;
+    color:azure;
+}
+
+.left1{
+    margin-top:3px;
+    margin-bottom:3px;
+}
+
+/* 用户格式样式设置 */
+/* 导航样式设置 */
+.userNav{
+    margin-top:20px;
+}
+
+.story{
+    margin-left:60px;
+    font-size:30px;
+}
+
+
+/* 人物样式设置 */
+.people{
+    margin-top:20px;
+    height:350px;
+    background-color: rgb(110, 231, 140);
+}
+
+.comment{
+    width:600px;
+    height:300px;
+    margin:50px auto;
+    margin-bottom:0px;
+    position:relative;
+    overflow:hidden;
+    background:white;
+}
+
+.comment span{
+    position:absolute;
+    left:610px;
+    white-space:nowrap;
+}
+
+.barrage{
+    margin:0px auto;
+    width:600px;
+    height:50px;
+}
+
+.barrage input{
+    margin-top:10px;
+    float:left;
+    width:400px;
+    height:30px;
+}
+
+.barrage button{
+    margin-top:10px;
+    width:190px;
+    height:34px;
+    float:right;
+}
+
+
+
+/* 底部样式设置 */
+.bottom{
+    height:230px;
+    background:black;
+    color:white;
+}
+
+.bglogo{
+    width:650px;
+    float:left;
+}
+
+.bglogo img{
+    margin-top:30px;
+    margin-left:30px;
+    width:300px;
+    height:50px;
+}
+
+.bglogo p{
+    margin-left:30px;
+    margin-top:10px;
+    font-size:12px;
+}
+
+.about div a{
+    color:white;
+}
+
+.about{
+    float:left;
+    margin-top:30px;
+    margin-left:100px;
+}
+
+.about ul li{
+    padding-top:10px;
+}
+
+.about ul li a{
+    font-size:12px;
+    padding-right:20px;
+}
+
+.hre{
+    float:left;
+    margin-top:30px;
+    margin-left:100px;
+}
+
+.hre div{
+    margin-bottom:10px;
+}
+
+.hre a{
+    color:white;
+}
+

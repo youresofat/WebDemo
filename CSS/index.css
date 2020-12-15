@@ -1,0 +1,408 @@
+/*
+  导航样式设置
+*/
+.nav img{
+	width:140px;
+	height:75px;
+	float:left;
+	margin-top:20px;
+}
+
+.nav ul{
+	float:left;
+	margin-top:40px;
+	margin-left:100px;
+}
+
+.nav li{
+	float:left;
+	width:100px;
+}
+
+.nav form{
+	float:left;
+	margin-left:80px;
+}
+
+.search{
+	float:left;
+	width:300px;
+	height:40px;
+	margin-top:30px;
+	margin-right:0px;
+	padding-left:10px;
+	border:2px solid red;
+}
+
+.button{
+	width:44px;
+	height:44px;
+	margin-top:30px;
+	border:red;
+	vertical-align:bottom;
+	background:url(../../img/button.png) no-repeat center;
+	background-color:red;
+}
+
+.person{
+	float:right;
+	margin-top:40px;
+	margin-right:20px;
+}
+
+/*
+  banner图样式设置
+*/
+
+.banner1{
+	margin-top:20px;
+	position:relative;
+}
+
+/* .banner1 img{
+	width:1200px;
+	padding:3px auto;
+	width:100%;
+	height:450px;
+} */
+
+#slider{
+	width:1200px;
+	height:450px;
+	margin:3px auto;
+	overflow:hidden;
+}
+
+.slide{
+	width:1200px;
+	height:450px;
+	float:left;
+	overflow:hidden;
+}
+
+.slide img{
+	width:1200px;
+	height:450px;
+}
+
+
+.banner1 ul{
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:450px;
+	width:200px;
+	background:rgba(0,0,0,0.2);
+}
+
+.banner1 ul li{
+	position:relative;
+	padding-top:20px;
+	padding-left:40px;
+	width:150px;
+	height:40px;
+
+}
+.banner1 a:hover{
+	color:rgba(0,164,255,1);
+}
+
+.banner1 div{
+	position:absolute;
+	width:10px;
+	height:10px;
+	top:24px;
+	right:10px;
+	background:url(../../img/lilogo.png) no-repeat center ;
+}
+
+.banner1 li:hover div{
+	background:url(../../img/lilogo2.png) no-repeat center ;
+}
+
+#next{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:150px;
+	right:260px;
+}
+
+/*
+  图书推荐导航设置
+*/
+
+.book-nav{
+	margin-top:10px;
+}
+.left{
+	font-weight:bold;
+	font-size:18px;
+	float:left;
+	margin-left:10px;
+}
+
+
+.right{
+	font-size:16px;
+	float:right;
+	margin-right:10px;
+}
+
+
+
+/*
+  图书推荐设置
+*/
+
+.book{
+	margin-top:10px;
+}
+.book img{
+	width:220px;
+	height:220px;
+}
+
+.book li{
+	margin-right:10px;
+	float:left;
+	width:230px;
+	height:315px;
+	border:1px solid #bbb;
+}
+
+.book li div{
+	margin-left:20px;
+}
+
+.div1{
+	color:red;
+	font-size:22px;
+}
+
+.div2{
+	margin-top:5px;
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+.div2 a{
+	color:#aaa;
+}
+
+.span1{
+	padding:2px;
+	background:red;
+	font-size:14px;
+}
+.span1 a{
+	color:white;
+}
+
+.span1 a:hover{
+	color:white;
+}
+
+.span2{
+	padding:2px;
+	margin-left:20px;
+	font-size:14px;
+	border:1px solid rgb(10,10,250);
+}
+
+.span2 a{
+	color:blue;
+}
+
+.span2 a:hover{
+	color:blue;
+}
+
+.div3{
+	margin-bottom:10px;
+}
+
+#last{
+	margin-right:0px;
+	padding-right:0px;
+}
+
+/*
+  服装推荐导航设置
+*/
+.clothing-div{
+	margin-top:10px;
+}
+
+/*
+  服装推荐设置
+*/
+
+.clothing{
+	margin-top:10px;
+}
+
+.clothing img{
+	width:220px;
+	height:220px;
+}
+
+.clothing li{
+	margin-right:10px;
+	float:left;
+	width:230px;
+	height:315px;
+	border:1px solid #bbb;
+}
+
+.clothing li div{
+	margin-left:20px;
+}
+
+/*
+  banner图2样式设置
+*/
+
+.banner2{
+	margin-top:20px;
+	position:relative;
+}
+
+.banner22{
+	width:100%;
+	height:450px;
+}
+
+.bg1{
+	position:absolute;
+	right:20px;
+	top:20px;
+}
+
+/*
+  手机导航样式设置
+*/
+
+.phone-nav{
+	margin-top:10px;
+}
+
+/*
+  手机样式设置
+*/
+
+.phone{
+	margin-top:10px;
+}
+
+.phone img{
+	width:220px;
+	height:220px;
+}
+
+.phone li{
+	margin-right:10px;
+	float:left;
+	width:230px;
+	height:315px;
+	border:1px solid #bbb;
+}
+
+.phone li div{
+	margin-left:20px;
+}
+
+/*
+  banner3图样式设置
+*/
+.banner3{
+	margin-top:20px;
+	position:relative;
+}
+.banner33{
+	width:100%;
+	height:450px;
+	vertical-align:bottom;
+}
+
+.decorate{
+	position:absolute;
+		color:#fff;
+	top:100px;
+	left:100px;
+}
+
+.pay{
+	font-size:50px;
+}
+
+.decorate p{
+	margin-top:20px;
+}
+
+/*
+  页脚样式设置
+*/
+
+.foot{
+	background:#000;
+}
+
+.foot ul li{
+	color:white;
+	font-size:16px;
+}
+.foot a{
+	color:white;
+}
+
+.ul1{
+	margin-left:100px;
+}
+
+.ul1 li{
+	float:left;
+	margin-top:40px;
+	width:260px;
+}
+
+.ul1 span{
+	font-size:20px;
+	color:red;
+	padding:5px;
+	border:2px solid red;
+}
+
+.bottom{
+	margin-top:30px;
+	width:260px;
+	float:left;
+}
+.ul2{
+	margin-left:100px;
+}
+
+.li1 a{
+	font-size:20px;
+}
+
+.li1{
+	margin-bottom:10px;
+}
+
+.inform ul{
+	margin-left:100px;
+}
+
+.inform li{
+	margin-top:10px;
+	margin-right:20px;
+	padding-right:7px;
+	float:left;
+	margin-bottom:50px;
+	border-right:1px solid #fff;
+}
+
+#lastli{
+	border:none;
+}
